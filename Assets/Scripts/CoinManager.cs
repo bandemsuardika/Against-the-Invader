@@ -25,7 +25,8 @@ public class CoinManager : MonoBehaviour {
         // 1G = 10S, 1S=10B, total (B) = B + 10*S + 100*G
         //coinText.text = currentCoin.ToString();
         //jika terjadi penambahan bronze coin
-        Debug.Log("coin: " + currentCoin);
+
+        //Debug.Log("coin: " + currentCoin);
         if (bcoin % 10 > 0)
         {
             bcoin = bcoin % 10;

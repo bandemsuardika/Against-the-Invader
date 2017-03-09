@@ -8,6 +8,7 @@ public class ScoreManager : MonoBehaviour {
     public int currentScore;
     public int bestScore = 0;
     public Text scoreText;
+	public Text bestScoreText;
 
     private void Awake()
     {
@@ -25,6 +26,7 @@ public class ScoreManager : MonoBehaviour {
         scoreText.text = "Score " + currentScore;
         if (currentScore > bestScore) {
             bestScore = currentScore;
+			bestScoreText.text = bestScore + "Best";
         }
         GameObject.Find("Score").GetComponent<Text>().text = "Score " + currentScore;
         GameObject.Find("Best").GetComponent<Text>().text = "Best " + PlayerPrefs.GetInt("BestScore");
