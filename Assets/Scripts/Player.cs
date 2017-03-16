@@ -125,7 +125,7 @@ public class Player : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Enemy")
+		if(other.tag == "Enemy" || other.tag == "Meteorite")
         {
 			CurrentHP -= Damage();
 			Destroy(gameObject);
