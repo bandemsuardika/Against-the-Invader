@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\BaseCharacter.cs" />
      <Compile Include="Assets\Scripts\CoinManager.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\GPSTracker.cs" />
      <Compile Include="Assets\Scripts\ItemGenerator.cs" />
      <Compile Include="Assets\Scripts\Meteor.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
