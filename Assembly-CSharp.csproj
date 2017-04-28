@@ -48,15 +48,21 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Background.cs" />
      <Compile Include="Assets\Scripts\BaseCharacter.cs" />
+     <Compile Include="Assets\Scripts\BattleAttackState.cs" />
+     <Compile Include="Assets\Scripts\BattleDefendState.cs" />
+     <Compile Include="Assets\Scripts\BattleSkillState.cs" />
      <Compile Include="Assets\Scripts\CoinManager.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\GPSTracker.cs" />
+     <Compile Include="Assets\Scripts\IEnemyState.cs" />
      <Compile Include="Assets\Scripts\ItemGenerator.cs" />
      <Compile Include="Assets\Scripts\Meteor.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerBullet.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\WaitState.cs" />
      <Compile Include="Assets\Scripts\WaveSpawner.cs" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>

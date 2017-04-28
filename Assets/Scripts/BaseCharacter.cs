@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseCharacter : MonoBehaviour {
+public abstract class BaseCharacter : MonoBehaviour {
 
 	private string className;
 	private string classDescription;
@@ -42,68 +42,36 @@ public class BaseCharacter : MonoBehaviour {
 	private int darkAffi;
 	private int physicalRes;
 
-	public string ClassName{
-		get{return className; }
-		set {className = value; }
-	}
-	public string ClassDescription {
-		get{return classDescription; }
-		set {classDescription = value; }
-	}
+	public string ClassName{ get; set; }
+	public string ClassDescription { get; set; }
+	public int Vitality { get; set; }
+	public int Wisdom { get; set; }
+	public int Strength { get; set; }
+	public int Defense { get; set; }
+	public int Dexterity { get; set; }
+	public int Intelligence { get; set; }
+	public int Luck { get; set; }
 
-	public int Vitality{
-		get{return vitality; }
-		set {vitality = value; }
-	}
-	public int Wisdom{
-		get{return wisdom; }
-		set {wisdom = value; }
-	}
-	public int Strength{
-		get{return strength; }
-		set {strength = value; }
-	}
-	public int Defense{
-		get{return defense; }
-		set {defense = value; }
-	}
-	public int Dexterity{
-		get{return dexterity; }
-		set {dexterity = value; }
-	}
-	public int Intelligence{
-		get{return intelligence; }
-		set {intelligence = value; }
-	}
-	public int Luck{
-		get{return luck; }
-		set {luck = value; }
-	}
-
+	//max hitpoint value
 	public int MaxHP{
 		get{return maxHP; }
 		set {maxHP = strength * vitality; }
 	}
-	public int CurrentHP{
-		get{return currentHP; }
-		set {currentHP = value; }
-	}
+	public int CurrentHP { get; set; }
+	//max mana point value, to use skill and magic
 	public int MaxMP{
 		get{return maxMP; }
 		set {maxMP = intelligence * wisdom; }
 	}
-	public int CurrentMP{
-		get{return currentMP; }
-		set {currentMP = value; }
-	}
-	public int CurrentSP{
-		get{return currentSP; }
-		set {currentSP = value; }
-	}
+	public int CurrentMP { get; set; }
+	//skill point, to get skill to level up
+	public int CurrentSP { get; set; }
+	//chance to get critical damage
 	public int CritRate{
 		get{return critRate; }
 		set {critRate = luck; }
 	}
+	//critical damage, depend on luck 
 	public int CritDmg{
 		get{return critDmg; }
 		set {critDmg = luck * strength; }
@@ -112,9 +80,19 @@ public class BaseCharacter : MonoBehaviour {
 		get{return currentEXP; }
 		set {currentEXP = value; }
 	}
+	//exp point needed to level up
 	public int ExpRequired{
 		get{return expRequired; }
 		set {expRequired = value - intelligence; }
 	}
 
+	// Use this for initialization
+	public virtual void Start () {
+		
+	}
+
+	// Update is called once per frame
+	void Update () {
+		
+	}
 }
