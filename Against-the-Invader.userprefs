@@ -1,16 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemy.cs" Line="7" Column="29" />
-      <File FileName="Assets\Scripts\Player.cs" Line="42" Column="24" />
-      <File FileName="Assets\Scripts\Meteor.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\BaseCharacter.cs" Line="90" Column="16" />
-      <File FileName="Assets\Scripts\IEnemyState.cs" Line="8" Column="21" />
-      <File FileName="Assets\Scripts\WaitState.cs" Line="10" Column="28" />
-      <File FileName="Assets\Scripts\BattleAttackState.cs" Line="10" Column="28" />
-      <File FileName="Assets\Scripts\BattleDefendState.cs" Line="10" Column="28" />
-      <File FileName="Assets\Scripts\BattleSkillState.cs" Line="10" Column="28" />
+      <File FileName="Assets\Scripts\Enemy.cs" Line="5" Column="37" />
+      <File FileName="Assets\Scripts\Player.cs" Line="120" Column="43" />
+      <File FileName="Assets\Scripts\Shooting.cs" Line="8" Column="28" />
+      <File FileName="Assets\Scripts\BaseCharacter.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EnemyAI.cs" Line="20" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>

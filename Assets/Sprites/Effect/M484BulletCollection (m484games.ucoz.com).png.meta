@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: 95a1f66b5b99f914c84817654bcc7367
+timeCreated: 1494847765
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: M484BulletCollection (m484games.ucoz.com)_0
+    21300002: M484BulletCollection (m484games.ucoz.com)_1
+    21300004: M484BulletCollection (m484games.ucoz.com)_2
+    21300006: M484BulletCollection (m484games.ucoz.com)_3
+    21300008: M484BulletCollection (m484games.ucoz.com)_4
+    21300010: M484BulletCollection (m484games.ucoz.com)_5
+    21300012: M484BulletCollection (m484games.ucoz.com)_6
+    21300014: M484BulletCollection (m484games.ucoz.com)_7
+    21300016: M484BulletCollection (m484games.ucoz.com)_8
+    21300018: M484BulletCollection (m484games.ucoz.com)_9
+    21300020: M484BulletCollection (m484games.ucoz.com)_10
+    21300022: M484BulletCollection (m484games.ucoz.com)_11
+    21300024: M484BulletCollection (m484games.ucoz.com)_12
+    21300026: M484BulletCollection (m484games.ucoz.com)_13
+    21300028: M484BulletCollection (m484games.ucoz.com)_14
+    21300030: M484BulletCollection (m484games.ucoz.com)_15
+    21300032: M484BulletCollection (m484games.ucoz.com)_16
+    21300034: M484BulletCollection (m484games.ucoz.com)_17
+    21300036: M484BulletCollection (m484games.ucoz.com)_18
+    21300038: M484BulletCollection (m484games.ucoz.com)_19
+    21300040: M484BulletCollection (m484games.ucoz.com)_20
+    21300042: M484BulletCollection (m484games.ucoz.com)_21
+    21300044: M484BulletCollection (m484games.ucoz.com)_22
+    21300046: M484BulletCollection (m484games.ucoz.com)_23
+    21300048: M484BulletCollection (m484games.ucoz.com)_24
+    21300050: M484BulletCollection (m484games.ucoz.com)_25
+    21300052: M484BulletCollection (m484games.ucoz.com)_26
+    21300054: M484BulletCollection (m484games.ucoz.com)_27
+    21300056: M484BulletCollection (m484games.ucoz.com)_28
+    21300058: M484BulletCollection (m484games.ucoz.com)_29
+    21300060: M484BulletCollection (m484games.ucoz.com)_30
+    21300062: M484BulletCollection (m484games.ucoz.com)_31
+    21300064: M484BulletCollection (m484games.ucoz.com)_32
+    21300066: M484BulletCollection (m484games.ucoz.com)_33
+    21300068: M484BulletCollection (m484games.ucoz.com)_34
+    21300070: M484BulletCollection (m484games.ucoz.com)_35
+    21300072: M484BulletCollection (m484games.ucoz.com)_36
+    21300074: M484BulletCollection (m484games.ucoz.com)_37
+    21300076: M484BulletCollection (m484games.ucoz.com)_38
+    21300078: M484BulletCollection (m484games.ucoz.com)_39
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 338
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 340
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 338
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 338
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 338
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 337
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 336
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 320
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 322
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 320
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 320
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 319
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 318
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 302
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 304
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 302
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 302
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 302
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 301
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 300
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 284
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 286
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 284
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 284
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 284
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 282
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 340
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_29
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 339
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_30
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 338
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_31
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 320
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_32
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_33
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 318
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_34
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 300
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_35
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 299
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_36
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 298
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_37
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 280
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_38
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 279
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection (m484games.ucoz.com)_39
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 278
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

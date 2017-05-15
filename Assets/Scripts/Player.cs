@@ -23,7 +23,7 @@ public class Player : MonoBehaviour {
     public Boundary boundary;
     public Rigidbody2D rb;
     public GameObject playerBullet;
-    public Transform shotpoint;
+	public Transform shotpoint, shotpoint2, shotpoint3;
     public float fireRate = 0.5f;
     private float nextFire = 0.0f;
 	private bool isLevelUp = false;
@@ -52,7 +52,7 @@ public class Player : MonoBehaviour {
 			Death ();
 		} else {
 			Movement ();
-			Shooting ();
+			//Shooting ();
 		}
 		if (CurrentEXP >= EXPRequired) {
 			LevelUp ();
@@ -75,13 +75,15 @@ public class Player : MonoBehaviour {
 		}*/
 	}
 
-	void Shooting() {
+	/*void Shooting() {
 		if (Time.time > nextFire)
 		{
 			nextFire = Time.time + fireRate;
 			Instantiate(playerBullet, shotpoint.position, shotpoint.rotation);
+			Instantiate(playerBullet, shotpoint2.position, shotpoint2.rotation);
+			Instantiate(playerBullet, shotpoint3.position, shotpoint3.rotation);
 		}
-	}
+	}*/
 
 	void LevelUp(){
 		int ExpTemp = CurrentEXP - EXPRequired;
