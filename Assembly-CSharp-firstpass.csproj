@@ -52,6 +52,9 @@
      <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemo.cs" />
      <Compile Include="Assets\Plugins\UnityPurchasing\script\PurchasingCheck.cs" />
      <Compile Include="Assets\Plugins\UnityPurchasing\script\UnibillDemo.cs" />
+     <None Include="Assets\UniWeb-Free\FAQ.txt" />
+     <None Include="Assets\UniWeb-Free\README.txt" />
+     <None Include="Assets\GoogleMaps\README.txt" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
@@ -96,6 +99,9 @@
  </Reference>
  <Reference Include="winrt">
  <HintPath>D:/Kuliah/Against-the-Invader/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="UniWeb-Free">
+ <HintPath>D:/Kuliah/Against-the-Invader/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

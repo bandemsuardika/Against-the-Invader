@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\UnityPurchasing\Editor\IAPButtonEditor.cs" />
+     <None Include="Assets\UniWeb-Free\FAQ.txt" />
+     <None Include="Assets\UniWeb-Free\README.txt" />
+     <None Include="Assets\GoogleMaps\README.txt" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
@@ -133,6 +136,9 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UniWeb-Free">
+ <HintPath>D:/Kuliah/Against-the-Invader/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

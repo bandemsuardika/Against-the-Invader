@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GoogleMaps\Scripts\GoogleMap.cs" />
      <Compile Include="Assets\Scripts\Background.cs" />
      <Compile Include="Assets\Scripts\BaseCharacter.cs" />
      <Compile Include="Assets\Scripts\BattleAttackState.cs" />
@@ -65,6 +66,16 @@
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\WaitState.cs" />
      <Compile Include="Assets\Scripts\WaveSpawner.cs" />
+     <Compile Include="Assets\UniWeb-Free\Examples\ConditionalGet.cs" />
+     <Compile Include="Assets\UniWeb-Free\Examples\ForceProxyExample.cs" />
+     <Compile Include="Assets\UniWeb-Free\Examples\KeepAliveExample.cs" />
+     <Compile Include="Assets\UniWeb-Free\Examples\RequestBenchmark.cs" />
+     <Compile Include="Assets\UniWeb-Free\Examples\UniWebExamples.cs" />
+     <Compile Include="Assets\UniWeb-Free\Examples\WebsocketClientEcho.cs" />
+     <Compile Include="Assets\UniWeb-Free\Examples\WebsocketClientExample.cs" />
+     <None Include="Assets\UniWeb-Free\FAQ.txt" />
+     <None Include="Assets\UniWeb-Free\README.txt" />
+     <None Include="Assets\GoogleMaps\README.txt" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
@@ -109,6 +120,9 @@
  </Reference>
  <Reference Include="winrt">
  <HintPath>D:/Kuliah/Against-the-Invader/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="UniWeb-Free">
+ <HintPath>D:/Kuliah/Against-the-Invader/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
