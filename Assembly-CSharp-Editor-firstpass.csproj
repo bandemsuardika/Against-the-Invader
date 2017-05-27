@@ -125,6 +125,9 @@
  <Reference Include="winrt">
  <HintPath>D:/Kuliah/Against-the-Invader/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
  </Reference>
+ <Reference Include="UniWeb-Free">
+ <HintPath>D:/Kuliah/Against-the-Invader/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -136,9 +139,6 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UniWeb-Free">
- <HintPath>D:/Kuliah/Against-the-Invader/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

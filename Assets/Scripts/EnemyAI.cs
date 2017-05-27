@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAI : BaseCharacter {
+public class EnemyAI : MonoBehaviour {
 
-	[SerializeField]
-	private Enemy EnemyStat;
+	//[SerializeField]
+	public Enemy EnemyStat;
 
 	private IEnemyState currentState;
 
 	// Use this for initialization
-	public override void Start () {
-		base.Start ();
-
+	void Start () {
+		ChangeState (new IdleState());
 	}
 	
 	// Update is called once per frame
@@ -27,5 +26,9 @@ public class EnemyAI : BaseCharacter {
 
 		currentState = newState;
 		currentState.Enter (this);
+	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		//currentState.OnTriggerEnter (other);
 	}
 }

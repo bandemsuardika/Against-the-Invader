@@ -19,13 +19,14 @@ public class Player : MonoBehaviour {
     public int EXPRequired;
     public int Level;
 	public Text LevelText;
+	private int Damage;
 
     public Boundary boundary;
     public Rigidbody2D rb;
     public GameObject playerBullet;
 	public Transform shotpoint, shotpoint2, shotpoint3;
-    public float fireRate = 0.5f;
-    private float nextFire = 0.0f;
+    public float fireRate;
+    private float nextFire;
 	private bool isLevelUp = false;
 
     public Slider HPBar;
@@ -116,10 +117,6 @@ public class Player : MonoBehaviour {
 		isLevelUp = false;
 	}
 
-	int Damage(){
-		return EnemyStatus.EnemyAttack - Defend;
-	}
-
     void Death()
     {
 		Destroy(gameObject);
@@ -129,8 +126,16 @@ public class Player : MonoBehaviour {
     {
 		if(other.tag == "Enemy" || other.tag == "Meteorite")
         {
-			CurrentHP -= Damage();
+			Damage = EnemyStatus.EnemyAttack - Defend;
+			if (Damage > 0) {
+				CurrentHP -= Damage;
+			} else {
+				CurrentHP -= 0;
+			}
 			Destroy(gameObject);
         }
+		if (other.tag == "Meteorite") {
+			Death ();
+		}
     }
 }

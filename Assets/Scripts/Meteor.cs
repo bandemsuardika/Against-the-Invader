@@ -27,7 +27,7 @@ public class Meteor : MonoBehaviour {
 		{
 			Instantiate(ExplosionAnim, transform.position, transform.rotation);
 			Destroy(gameObject);	//destroy meteor
-			Destroy (other.gameObject); //destroy player
+			//Destroy (other.gameObject); //destroy player
 			ScoreMngr.currentScore += ScoreBonus;   //add bonus score to player score manager
 			Character.CurrentEXP += EXPBonus;	//add bonus exp to player
 		}
