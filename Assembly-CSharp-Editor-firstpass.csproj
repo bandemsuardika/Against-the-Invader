@@ -48,8 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Plugins\UnityPurchasing\Editor\IAPButtonEditor.cs" />
      <None Include="Assets\UniWeb-Free\FAQ.txt" />
+     <None Include="Assets\GoogleGoMap\README.txt" />
+     <None Include="Assets\GoogleGoMap\Instructions.txt" />
      <None Include="Assets\UniWeb-Free\README.txt" />
-     <None Include="Assets\GoogleMaps\README.txt" />
+     <None Include="Assets\GoogleGoMap\The MIT License.txt" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>

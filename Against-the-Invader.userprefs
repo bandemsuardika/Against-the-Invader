@@ -1,18 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GoogleGoMap\Scripts\PlayerLocationService.cs">
     <Files>
       <File FileName="Assets\Scripts\Enemy.cs" Line="22" Column="1" />
-      <File FileName="Assets\Scripts\Player.cs" Line="138" Column="13" />
+      <File FileName="Assets\Scripts\Player.cs" Line="46" Column="33" />
       <File FileName="Assets\Scripts\Shooting.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EnemyAI.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\IdleState.cs" Line="38" Column="4" />
-      <File FileName="Assets\Scripts\EvadeState.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ItemGenerator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ShootingRange.cs" Line="24" Column="36" />
-      <File FileName="Assets\Scripts\InRangeState.cs" Line="11" Column="49" />
-      <File FileName="Assets\Scripts\WaveSpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Meteor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Maps.cs" Line="33" Column="31" />
+      <File FileName="Assets\GoogleGoMap\Scripts\GeoPoint.cs" Line="1" Column="1" />
+      <File FileName="Assets\GoogleGoMap\Scripts\GoogleStaticMap.cs" Line="211" Column="38" />
+      <File FileName="Assets\GoogleGoMap\Instructions.txt" Line="18" Column="21" />
+      <File FileName="Assets\GoogleGoMap\Scripts\GameManager.cs" Line="48" Column="39" />
+      <File FileName="Assets\Scripts\GPSTracker.cs" Line="28" Column="43" />
+      <File FileName="Assets\GoogleGoMap\Scripts\PlayerLocationService.cs" Line="81" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

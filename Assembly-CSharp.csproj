@@ -46,7 +46,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleMaps\Scripts\GoogleMap.cs" />
+     <Compile Include="Assets\GoogleGoMap\Example\SimpleController.cs" />
+     <Compile Include="Assets\GoogleGoMap\Scripts\GameManager.cs" />
+     <Compile Include="Assets\GoogleGoMap\Scripts\GeoPoint.cs" />
+     <Compile Include="Assets\GoogleGoMap\Scripts\GoogleStaticMap.cs" />
+     <Compile Include="Assets\GoogleGoMap\Scripts\ObjectPosition.cs" />
+     <Compile Include="Assets\GoogleGoMap\Scripts\PlayerLocationService.cs" />
+     <Compile Include="Assets\GoogleGoMap\Scripts\Singleton.cs" />
      <Compile Include="Assets\Scripts\Background.cs" />
      <Compile Include="Assets\Scripts\BaseCharacter.cs" />
      <Compile Include="Assets\Scripts\BattleAttackState.cs" />
@@ -60,6 +66,7 @@
      <Compile Include="Assets\Scripts\IgnoreCollision.cs" />
      <Compile Include="Assets\Scripts\InRangeState.cs" />
      <Compile Include="Assets\Scripts\ItemGenerator.cs" />
+     <Compile Include="Assets\Scripts\Maps.cs" />
      <Compile Include="Assets\Scripts\Meteor.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerBullet.cs" />
@@ -76,8 +83,10 @@
      <Compile Include="Assets\UniWeb-Free\Examples\WebsocketClientEcho.cs" />
      <Compile Include="Assets\UniWeb-Free\Examples\WebsocketClientExample.cs" />
      <None Include="Assets\UniWeb-Free\FAQ.txt" />
+     <None Include="Assets\GoogleGoMap\README.txt" />
+     <None Include="Assets\GoogleGoMap\Instructions.txt" />
      <None Include="Assets\UniWeb-Free\README.txt" />
-     <None Include="Assets\GoogleMaps\README.txt" />
+     <None Include="Assets\GoogleGoMap\The MIT License.txt" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
