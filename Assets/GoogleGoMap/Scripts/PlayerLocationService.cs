@@ -22,7 +22,7 @@ public class PlayerLocationService : MonoBehaviour {
 	{
 		
 		// First, check if user has location service enabled
-		if (!Input.location.isEnabledByUser) {
+		/*if (!Input.location.isEnabledByUser) {
 			Debug.Log ("Locations is not enabled.");
 
 			//NOTE: If location is not enabled, we initialize the postion of the player to somewhere in Los Angeles, just for demonstration purposes
@@ -32,7 +32,7 @@ public class PlayerLocationService : MonoBehaviour {
 			// To get the game run on Editor without location services
 			locServiceIsRunning = true;
 			yield break;
-		}
+		}*/
 
 		// Start service before querying location
 		Input.location.Start();
